@@ -145,37 +145,39 @@ main h1{
 }
 
 #depoimentos .img-depoimentos1{
-	margin-top: 0.5px;
-	width: 145px;
-	height: 145px;
+	margin-top: 1.5rem;
+	width: 120px;
+	height: 120px;
 	position: absolute;
 	top: 18%;
-	left: 14%;
+	left: 14.5%;
 	z-index: 1000;
 }
 
 #depoimentos .img-depoimentos2{
-	width: 145px;
-	height: 145px;
+	margin-top: 1.5rem;
+	width: 120px;
+	height: 120px;
 	position: absolute;
 	top: 19%;
-	left: 46%;
+	left: 46.8%;
 	z-index: 1000;
 }
 
 #depoimentos .img-depoimentos3{
-	width: 145px;
-	height: 145px;
+	margin-top: 1.5rem;
+	width: 120px;
+	height: 120px;
 	position: absolute;
 	top: 19%;
-	left: 78%;
+	left: 78.6%;
 	z-index: 1000;
 
 }
 
 #depoimentos .depoimentos-card p{
 	color: #fff;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	font-weight: bold;
 	text-align: center;
 	padding: 2rem;
