@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*ESTILIZAÇÃO TAG HEADER*/
+
+html{
+	background-color: #050A30;
+	font-size: 62.5%;
+}
+
+body{
+	max-width: 100%;
+	margin: 0 auto;
+	height: 100vh;
+	width: 100vw;
+}
+
+#texto-header{
+	margin-top: 15rem;
+	margin-left: 20rem;
+	position: absolute;
+	text-align: left;
+}
+
+#texto-header h1, #texto-header h1 strong{
+	font-size: 13.3rem;
+	letter-spacing: 4px;
+	line-height: 150%;
+	margin-bottom: 2rem;
+	font-family: 'Impact', sans-serif;
+}
+
+#texto-header h3{
+	font-size: 3rem;
+	font-weight: bold;
+	line-height: 150%;
+}
+
+#texto-header h1, #texto-header h3{
+	color: #ffffff;
+}
+
+#texto-header h1 strong, #texto-header h3 strong{
+	color: #ff5e1c;
+}
+
+header img{
+	width: 100%;
+}
+
+
+/*ESTILIZAÇÃO TAG MAIN*/
+
+main h1{
+	color: white;
+	text-align: center;
+	margin-top: 3rem;
+}
+
+#video-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+#video-main video{
+	height: 80rem;
+	width: 80rem;
+}
+
+.whatsapp-button{
+	background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.whatsapp-button a {
+    display: flex;
+    align-items: center;
+    background-color: #25d366;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    text-decoration: none;
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.whatsapp-button img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#quero-conhecer{
+	background-color: black;
+	width: 100%;
+}
+
+.texto-main{
+	padding: 2rem;
+}
+
+.texto-main p{
+	background-color: black;
+	color: white;
+	width: 100%;
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 150%;
+	text-align: center;
+}
+
+/*ESTILIZAÇÃO DEPOIMENTOS*/
+
+#depoimentos{
+	width: 100%;
+	position: relative;
+}
+
+#depoimentos .depoimentos-container h2{
+	position: absolute;
+	color: #fff;
+	top: 2%;
+	left: 45%;
+	font-size: 3.5rem;
+}
+
+#depoimentos img{
+	width: 100%;
+	height: 650px;
+}
+
+#depoimentos .img-depoimentos1{
+	margin-top: 0.5px;
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 18%;
+	left: 14%;
+	z-index: 1000;
+}
+
+#depoimentos .img-depoimentos2{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 19%;
+	left: 46%;
+	z-index: 1000;
+}
+
+#depoimentos .img-depoimentos3{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 19%;
+	left: 78%;
+	z-index: 1000;
+
+}
+
+#depoimentos .depoimentos-card p{
+	color: #fff;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	padding: 2rem;
+}
+
+#depoimentos #depoimento1 p{
+	position: absolute;
+	width: 15%;
+	height: 35%;
+	top: 40%;
+	left: 10.3%;
+}
+
+#depoimentos #depoimento2 p{
+	position: absolute;
+	width: 15%;
+	height: 35%;
+	top: 40%;
+	left: 42.3%;
+}
+
+#depoimentos #depoimento3 p{
+	position: absolute;
+	width: 15%;
+	height: 35%;
+	top: 40%;
+	left: 74.3%;
+}
+
+/*ESTILIZAÇÃO FOOTER*/
+
+footer p{
+	font-size: 1.5rem;
+}
+
+footer #footer-card h2{
+	font-size: 2rem;
+}
+
+footer p, footer h2{
+	color: white;
+	text-align: center;
+	font-size: 1.2rem;
+	padding: 1rem;
+}
+
+footer img{
+	width: 2rem;
+	height: 2rem;
+}
+
+footer #footer-card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+/*reponsividade do site*/
+
+@media(max-width: 1200px){
+
+	#texto-header{
+	margin-top: 5rem;
+	margin-left: 20rem;
+	position: absolute;
+	text-align: left;
+	}
+
+	#texto-header h1, #texto-header h1 strong{
+		font-size: 5rem;
+		font-weight: bold;
+		line-height: 150%;
+		margin-bottom: 2rem;
+	}
+
+	#texto-header h3{
+	font-size: 1.5rem;
+	font-weight: bold;
+	line-height: 150%;
+	}
+
+	main h1{
+	color: white;
+	text-align: center;
+	margin-top: 3rem;
+	}
+
+	#video-main{
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+	#video-main video{
+		height: 50rem;
+		width: 50rem;
+		margin-bottom: 2rem;
+	}
+
+	.texto-main{
+	padding: 2rem;
+	}
+
+	.texto-main p{
+		background-color: black;
+		color: white;
+		width: 100%;
+		font-size: 1.5rem;
+		font-weight: bold;
+		line-height: 150%;
+		text-align: center;
+	}
+
+	#depoimentos .depoimentos-card p{
+	color: #fff;
+	font-size: 0.98rem;
+	font-weight: bold;
+	text-align: center;
+	padding: 2rem;
+	}
+
+	#depoimentos img{
+	width: 100%;
+	height: 300px;
+	}
+
+	#depoimentos .depoimentos-container h2{
+		font-size: 2.5rem;
+		position:absolute;
+		color:#fff;
+		top:2%;
+		left:41%
+	}
+
+	#depoimentos .img-depoimentos1{
+	margin-top: 0.5px;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 18%;
+	left: 13%;
+	z-index: 1000;
+	}
+
+	#depoimentos .img-depoimentos2{
+	margin-top: 5px;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 18%;
+	left: 46%;
+	z-index: 1000;
+	}
+
+	#depoimentos .img-depoimentos3{
+	margin-top: 5px;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 18%;
+	left: 77.3%;
+	z-index: 1000;
+	}
+
+	#depoimentos #depoimento1 p{
+		position: absolute;
+		width: 20%;
+		top: 37%;
+		left: 8%;
+	}
+
+	#depoimentos #depoimento2 p{
+		position: absolute;
+		width: 20%;
+		top: 37%;
+		left: 40%;
+		
+	}
+
+	#depoimentos #depoimento3 p{
+		position: absolute;
+		width: 20%;
+		top: 37%;
+		left: 72%;
+		
+	}
+
+}
+@media (max-width: 767px) {
+
+	#texto-header{
+	margin-top: 5rem;
+	margin-left: 20rem;
+	position: absolute;
+	text-align: left;
+
+	}
+
+	#texto-header h1, #texto-header h1 strong{
+		font-size: 6rem;
+		font-weight: bold;
+		line-height: 150%;
+		margin-bottom: 2rem;
+	}
+
+	#texto-header h3{
+		font-size: 1.5rem;
+		font-weight: bold;
+		line-height: 150%;
+	}
+
+	#texto-header h1, #texto-header h3{
+		color: #ffffff;
+	}
+
+	#texto-header h1 strong, #texto-header h3 strong{
+		color: #ff5e1c;
+	}
+
+	header img{
+		width: 100%;
+	}
+
+	main h1{
+
+	color: white;
+	text-align: center;
+	margin-top: 3rem;
+
+	}
+
+	#video-main{
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+		
+	}
+
+	#video-main video{
+			padding:4rem;
+			height: auto;
+			width: 80rem;
+	}
+
+	.whatsapp-button{
+		background-color: black;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    margin-top: 2rem;
+	    padding-bottom: 2rem;
+	}
+
+	.whatsapp-button a {
+	    display: flex;
+	    align-items: center;
+	    background-color: #25d366;
+	    padding: 1rem;
+	    border-radius: 5px;
+	    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+	    color: #fff;
+	    text-decoration: none;
+	    margin: 2rem;
+	    font-size: 2rem;
+	}
+
+	.whatsapp-button img {
+	    width: 30px;
+	    height: 30px;
+	    margin-left: 10px;
+	}
+
+	#quero-conhecer{
+		background-color: black;
+		width: 100%;
+	}
+
+	.texto-main{
+		padding: 2rem;
+	}
+
+	.texto-main p{
+		background-color: black;
+		color: white;
+		width: 100%;
+		font-size: 2rem;
+		font-weight: bold;
+		line-height: 150%;
+		text-align: center;
+	}
+
+	#depoimentos img{
+	width: 100%;
+	height: 300px;
+	}
+
+	#depoimentos .depoimentos-container h2{
+		font-size: 2.5rem;
+		position:absolute;
+		color:#fff;
+		top:2%;
+		left:41%
+	}
+
+	#depoimentos .depoimentos-card p{
+	color: #fff;
+	font-size: 0.96rem;
+	font-weight: bold;
+	text-align: center;
+	padding: 2rem;
+	}
+
+	#depoimentos .img-depoimentos1{
+	margin-top: 0.5px;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 18%;
+	left: 13%;
+	z-index: 1000;
+	}
+
+	#depoimentos .img-depoimentos2{
+	margin-top: 5px;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 18%;
+	left: 46%;
+	z-index: 1000;
+	}
+
+	#depoimentos .img-depoimentos3{
+	margin-top: 5px;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 18%;
+	left: 77.3%;
+	z-index: 1000;
+	}
+
+	#depoimentos #depoimento1 p{
+		position: absolute;
+		width: 20%;
+		top: 37%;
+		left: 8%;
+	}
+
+	#depoimentos #depoimento2 p{
+		position: absolute;
+		width: 20%;
+		top: 37%;
+		left: 40%;
+		
+	}
+
+	#depoimentos #depoimento3 p{
+		position: absolute;
+		width: 20%;
+		top: 37%;
+		left: 72%;
+		
+	}
+
+}
+
+@media(max-width: 560px){
+
+	#texto-header{
+		margin-top: 2rem;
+		margin-left: 6rem;
+		position: absolute;
+		text-align: left;
+		z-index: 60;	
+	}
+
+	#texto-header h1, #texto-header h1 strong{
+	font-size: 4rem;
+	letter-spacing: 4px;
+	line-height: 150%;
+	margin-bottom: 1rem;
+	font-family: 'Impact', sans-serif;
+	}
+
+	#texto-header h3{
+		font-size: 1rem;
+		font-weight: bold;
+		line-height: 150%;
+	}
+
+	#texto-header h1, #texto-header h3{
+		color: #ffffff;
+	}
+
+	#texto-header h1 strong, #texto-header h3 strong{
+		color: #ff5e1c;
+	}
+
+	main h1{
+		color: white;
+		font-size: 1.5rem;
+		text-align: center;
+		margin-top: 3rem;
+	}
+
+	#video-main{
+
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    height: auto;
+	}
+
+	#video-main video{
+		padding:3rem;
+		height: auto;
+		width: 38rem;
+	}
+
+	.whatsapp-button{
+		background-color: black;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    padding-bottom: 2rem;
+	}
+
+	.whatsapp-button a {
+	    display: flex;
+	    align-items: center;
+	    background-color: #25d366;
+	    padding: 1rem;
+	    border-radius: 5px;
+	    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+	    color: #fff;
+	    text-decoration: none;
+	    margin: 2rem;
+	    font-size: 1.5rem;
+	}
+
+	.whatsapp-button img {
+	    width: 20px;
+	    height: 20px;
+	    margin-left: 10px;
+	}
+
+	#quero-conhecer{
+		background-color: black;
+		width: 100%;
+	}
+
+	.texto-main{
+		padding: 1rem;
+	}
+
+	.texto-main p{
+		background-color: black;
+		color: white;
+		width: 100%;
+		font-size: 1.1rem;
+		font-weight: bold;
+		line-height: 150%;
+		text-align: center;
+	}
+
+	#depoimentos{
+		width: 100%;
+		position: relative;
+	}
+
+	#depoimentos .depoimentos-container h2{
+		font-size: 1.6rem;
+		position:absolute;
+		color:#fff;
+		top:2%;
+		left:39%
+	}
+
+	#depoimentos img{
+	width: 100%;
+	height: 200px;
+	}
+
+	#depoimentos .img-depoimentos1{
+	margin-top: 0.5px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 18%;
+	left: 12%;
+	z-index: 1000;
+	}
+
+	#depoimentos .img-depoimentos2{
+	margin-top: 0.5px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 18%;
+	left: 45%;
+	z-index: 1000;
+	}
+
+	#depoimentos .img-depoimentos3{
+	margin-top: 0.5px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 18%;
+	left: 76%;
+	z-index: 1000;
+	}
+
+	#depoimentos .depoimentos-card p{
+		font-size: 0.5rem;
+		font-weight: bold;
+		text-align: center;
+		padding: 0.5rem;
+	}
+
+	#depoimentos #depoimento1 p{
+		position: absolute;
+		width: 15%;
+		top: 42%;
+		left: 10.1%;
+		
+	}
+
+	#depoimentos #depoimento2 p{
+		position: absolute;
+		width: 15%;
+		top: 42%;
+		left: 42.6%;
+		
+	}
+
+	#depoimentos #depoimento3 p{
+		position: absolute;
+		width: 15%;
+		top: 42%;
+		left: 74.3%;
+		
+	}
+
+
+}
